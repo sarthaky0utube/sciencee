@@ -1,0 +1,123 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8; /* Increased line-height for better readability */
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 60px; /* Add padding to ensure footer does not cover content */
+}
+
+header {
+    background-color: #2a9d8f;
+    color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.8; /* Increased line-height for better readability */
+}
+
+h2 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px; /* Added bottom margin for spacing */
+}
+
+ol, ul {
+    padding-left: 20px;
+    margin-bottom: 10px; /* Added bottom margin for spacing */
+}
+
+ol ul {
+    padding-left: 40px; /* Increased padding for nested lists */
+}
+
+p {
+    margin: 10px 0; /* Adjusted margin for better spacing */
+    line-height: 1.8; /* Increased line-height for better readability */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2a9d8f;
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better separation */
+}
+
+/* Styles for the details and summary elements */
+details {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 0;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #e0f7fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.arrow {
+    position: absolute;
+    right: 10px; /* Adjust this value if needed */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.8em;
+    transition: transform 0.3s ease;
+}
+
+details[open] .arrow {
+    transform: translateY(-50%) rotate(90deg);
+}
+
+li {
+    margin-left: 20px; /* Add left margin to content */
+    padding: 10px; /* Add padding to content for better readability */
+}
